@@ -1,13 +1,13 @@
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 
-#switches order of rows/columns
+#transpose: switches rows & columns
 matrix2 = matrix.transpose
 
-#rotate simply moves down the first most row(s) 
+#rotate: simply moves down the first most row(s) 
 #(it can take in an integer for the number of rows) to the bottom
 matrix3 = matrix.rotate
 
-#reverse swaps the rows
+#reverse: swaps the rows
 matrix4 = matrix.reverse
 
 #---------------------------------------------------------------------
