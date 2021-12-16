@@ -1,4 +1,4 @@
-#Given a sqpare matrix of integers 'matrix' and an array of queries q,
+#Given a square matrix (2d array) of integers 'matrix' and an array of queries q,
 #if q[i] = 0, rotate the matrix 90 degrees
 def rotate90Deg(matrix)
     matrix.reverse.transpose
